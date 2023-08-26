@@ -1,0 +1,274 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(240, 245, 245);
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: all 0.3s;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -17em;
+  background: rgb(0, 22, 46);
+  z-index: 999;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 17em;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    margin-left: 18em;
+    margin-right: 1em;
+  }
+
+  .section {
+    min-height: 100vh;
+    flex-flow: column wrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#scroll-parent {
+  position: relative;
+}
+
+#scroll-parent ul li a {
+  padding: 0.6em;
+  margin: 0em;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: block;
+  color: rgb(240, 245, 245);
+}
+
+#scroll-parent .nav-menu .nav-item .nav-link.active {
+  color: rgb(0, 0, 0);
+  background: rgb(240, 245, 245);
+  font-size: 1.1em;
+}
+
+#scroll-parent .nav-menu .nav-item .nav-link:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(240, 245, 245);
+}
+
+#scroll-parent .nav-menu .nav-item .nav-link:hover .nav-link-icon {
+  color: rgb(0, 0, 0);
+}
+
+#scroll-parent .nav-menu .nav-item .nav-link .nav-link-icon {
+  color: rgb(240, 245, 245);
+  font-size: 1.1em;
+  vertical-align: text-top;
+}
+
+#scroll-parent .nav-menu .nav-item .nav-link.active .nav-link-icon {
+  color: rgb(0, 0, 0);
+}
+
+#profile-img {
+  width: 9em;
+  height: 9.5em;
+  border: 5px solid rgb(56, 56, 56);
+  margin-bottom: 0.5em;
+}
+
+#coding-img {
+  width: 80%;
+  margin-left: 80px;
+}
+
+#teach-img {
+  width: 90%;
+  border-radius: 1%;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 2em;
+}
+
+.navbar .nav-item {
+  color: rgb(240, 245, 245);
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 3em;
+  color: rgb(41, 43, 44);
+}
+
+.reach-icons .reach-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 1.7rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1em;
+}
+.reach-icons .reach-icon:last-child {
+  margin-right: 0;
+}
+.reach-icons .reach-icon:hover {
+  background-color: rgb(4, 122, 252);
+}
+
+.section {
+  box-sizing: border-box;
+  margin-bottom: 3em;
+}
+
+.section #section-header1 {
+  font-size: 2.2em;
+  font-weight: 450;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  padding-bottom: 0.6em;
+}
+
+.section #section-header2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: rgb(56, 56, 56);
+  padding-bottom: 1em;
+}
+
+.section #section-header3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.section #section-header4 {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.section #profile-name {
+  font-size: 2.4em;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.section #section-content1 {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(74, 67, 67);
+  /* text-align: justify; */
+}
+
+.section #section-content2 {
+  font-size: 1.2em;
+  font-weight: 450;
+  color: rgb(0, 0, 0);
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+}
+
+.section #section-content3 {
+  font-size: 1em;
+  font-weight: 600;
+  padding-right: 1em;
+  color: rgb(74, 67, 67);
+}
+
+.section #section-list li {
+  padding-bottom: 0.5em;
+}
+
+.iconify {
+  font-size: 1.2em;
+  vertical-align: text-top;
+  font-weight: bold;
+}
+
+.card {
+  padding: 1em;
+  background: rgb(255, 255, 255);
+  border: 0em;
+  border-radius: 0.2em;
+}
+
+.card #card-img {
+  height: 12em;
+  object-fit: cover;
+  border-radius: 0.2em;
+}
+
+.card .card-title {
+  font-size: 1.4em;
+  font-weight: 450;
+  color: rgb(56, 56, 56);
+  padding-top: 0.5em;
+}
+
+.card .card-content1 {
+  font-size: 1em;
+  font-weight: 400em;
+  color: rgb(74, 67, 67);
+}
+
+.card #card-content2 {
+  font-size: 0.9em;
+  font-weight: 500em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
