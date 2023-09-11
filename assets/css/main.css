@@ -280,6 +280,12 @@ a:focus {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  #map-container iframe {
+    width: 100%;
+  }
+}
+
 
 #linkedin h1 {
   border-bottom: 5px solid black;
