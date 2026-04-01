@@ -1790,17 +1790,6 @@
    display: none;
  }
 
- .linkedin-click-wrapper {
-   display: inline-block;
-   text-decoration: none;
-   cursor: pointer;
- }
-
- #li-badge-light iframe,
- #li-badge-dark iframe {
-   pointer-events: none;
- }
-
  #li-badge-light:hover,
  #li-badge-dark:hover {
    transform: translateY(-3px);
