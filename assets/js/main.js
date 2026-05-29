@@ -1,13 +1,28 @@
 /* ══════════════════════════════════
    PAGE LOADER
 ══════════════════════════════════ */
-window.addEventListener('load', () => {
+function removeLoader() {
+  const loader = document.getElementById('loader');
+
+  if (!loader || loader.classList.contains('done')) return;
+
+  loader.classList.add('done');
+
   setTimeout(() => {
-    const l = document.getElementById('loader');
-    l.classList.add('done');
-    setTimeout(() => l.remove(), 600);
+    loader.remove();
   }, 600);
+}
+
+/* Main trigger */
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(removeLoader, 400);
 });
+
+/* Backup trigger */
+window.addEventListener('load', removeLoader);
+
+/* Emergency fallback */
+setTimeout(removeLoader, 3000);
 
 /* ══════════════════════════════════
    PARTICLES

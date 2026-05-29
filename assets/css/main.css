@@ -2001,9 +2001,10 @@
  }
 
  #loader.done {
-   opacity: 0;
-   transform: scale(1.04);
-   pointer-events: none
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(1.04);
  }
 
  /* grid lines bg */
