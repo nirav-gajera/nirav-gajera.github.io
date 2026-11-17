@@ -1,0 +1,18 @@
+# Nirav Gajera
+
+> Portfolio of Nirav Gajera, an Ahmedabad-based Full Stack Developer (3+ years experience) and Verified n8n Creator specializing in PHP, Laravel, Vue.js, React, Inertia.js, and AI-powered SaaS applications. Contact: niravgajera1@gmail.com.
+
+## Core Pages & Profiles
+- [Portfolio & Resume](https://niravgajera.indevs.in/): Full-stack/AI project highlights, tech stack, and experience.
+- [Flowcraft n8n Templates](https://indevs.in): Downloadable JSON automation workflows and guides.
+- [GitHub](https://github.com/nirav-gajera) & [LinkedIn](https://in.linkedin.com/in/nirav-gajera1): Source repositories and professional network.
+
+## Experience & Education
+- **Jr. Software Developer at ArsenalTech Pvt. Ltd.** (Sept 2023 – Present): E-commerce design for Erin Condren, Laravel Nova/Vue admin panels, Event Kaboodles, Skill Sync AI, and n8n workflows.
+- **Web Developer Intern at ArsenalTech** (Feb 2023 – Sept 2023): Core PHP, Laravel CRUD, and CodeIgniter EMS development.
+- **PHP Intern at Global It Web** (Feb 2023 – May 2023): Online Photographer Booking platform in core PHP and MySQL.
+- **Education**: MCA from Silveroak University (9.15 CGPA, 2023) and BCA from Shree Umiya BCA College (2020).
+
+## Flagship Projects & Technical Stack
+- **Key Projects**: *Skill Sync AI* (Laravel 12, React, Inertia, Gemini AI), *My AI App* (RAG & Telegram integration), *Complaint Management System* (Vue 3, Laravel 12, Sanctum), *QuizMaster* (Pest automated tests), plus e-commerce and booking platforms.
+- **Tech Stack**: PHP 8.2, Laravel 12, Vue.js 3, React, Inertia.js, TypeScript, Tailwind CSS, n8n Automation, Google Gemini API, OpenAI, MySQL, Redis, Docker, and AWS.
